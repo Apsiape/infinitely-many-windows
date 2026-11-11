@@ -1,6 +1,6 @@
 # A perturbed cellular automaton with infinitely many ergodicity transitions
 
-Seth Douglas and Nidhal Mghirbi. Version 1.0.0, November 2026. The version DOI is recorded in the commit that follows the release.
+Seth Douglas and Nidhal Mghirbi. Version 1.0.0, November 2026. DOI: [10.5281/zenodo.24122609](https://doi.org/10.5281/zenodo.24122609). Concept DOI (all versions): [10.5281/zenodo.24122608](https://doi.org/10.5281/zenodo.24122608).
 
 **This is a preprint. It has not been peer reviewed.**
 
