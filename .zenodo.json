@@ -1,0 +1,38 @@
+{
+  "title": "A perturbed cellular automaton with infinitely many ergodicity transitions",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "version": "1.0.0",
+  "publication_date": "2026-11-10",
+  "creators": [
+    {
+      "name": "Douglas, Seth",
+      "orcid": "0009-0007-4708-3252"
+    },
+    {
+      "name": "Mghirbi, Nidhal",
+      "orcid": "0009-0005-6534-1118"
+    }
+  ],
+  "description": "Can the ergodicity of one cellular automaton under noise switch on and off infinitely often as the noise rate decreases? Marsan, Sablik and Törmä built a one-dimensional automaton that is ergodic at small and at large noise rates and not ergodic in between, and asked which sets of rates can occur. We give one cellular automaton on ℤ⁴, with one finite alphabet and one neighbourhood, whose perturbation by independent uniform replacement of the whole symbol at rate ε has infinitely many alternating windows: open intervals of rates, with rational endpoints computable from their index and decreasing to 0, on which the perturbed automaton alternately has two translation-invariant stationary laws and has one stationary law that attracts every initial law. The rule is given in full, including its action on malformed configurations.<br><br>The construction starts from a one-dimensional automaton whose unique stationary law makes a display bit mostly 1 at the rates b/(kB^k) with k odd and mostly 0 with k even. Seeds created by the noise start base-B counters. A changed counter letter makes its anchored prefix decay. The head freezes a previously validated message bit; once the length-parity messages have settled, this is the parity of the counter's length before the failure. Heads write their bits on the display. Independent copies of this automaton gate Toom's north-east-centre majority rule in two further dimensions, which keeps memory when the gates are mostly open and forgets when they are mostly closed. Through the correspondence between probabilistic cellular automata and space-time Gibbs measures, one finite-range interaction on ℤ⁵ with energies 0 and 1 has infinitely many computable alternating intervals of inverse temperature, tending to infinity, with at least two and with exactly one translation-invariant Gibbs measure. All windows lie at astronomically small noise rates.",
+  "keywords": [
+    "probabilistic cellular automata",
+    "ergodicity",
+    "phase transitions",
+    "uniform noise",
+    "Toom's rule",
+    "space-time Gibbs measures",
+    "computability"
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "notes": "Preprint. It has not been peer reviewed. Version 1.0.0. Text: CC BY 4.0. Build script: MIT or Apache 2.0.",
+  "related_identifiers": [
+    {
+      "identifier": "https://finite.works/papers/infinitely-many-windows/",
+      "relation": "isDescribedBy",
+      "scheme": "url"
+    }
+  ]
+}
